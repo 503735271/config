@@ -1,0 +1,8 @@
+server:
+  port: 8765
+zuul:
+  routes:
+      product: /myProduct/**
+  #排除某些路由
+  ignored-patterns:
+    - /**/product/listForOrder
