@@ -17,4 +17,4 @@ spring:
   jpa:
     show-sql: true
 server:
-  port: 9762
+  port: 8762
