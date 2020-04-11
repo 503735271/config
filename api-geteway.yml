@@ -3,6 +3,7 @@ server:
 zuul:
   routes:
       product: /myProduct/**
+      order: /myOrder/**
   #排除某些路由
   ignored-patterns:
     - /**/product/listForOrder
