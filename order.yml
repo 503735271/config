@@ -21,3 +21,5 @@ server:
   port: 8763
 env:
   dev3
+env2:
+  123
