@@ -2,7 +2,7 @@ server:
   port: 8765
 zuul:
   routes:
-      product: /myProduct1/**
+      product: /myProduct/**
       order: /myOrder/**
   #排除某些路由
   ignored-patterns:
