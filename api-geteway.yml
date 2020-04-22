@@ -1,6 +1,5 @@
 server:
   port: 8765
 zuul:
-  routes:
-      product: /myProduct/**
-      order: /myOrder/**
+#全部服务忽略敏感头部(全部都可以传递cookie)
+  sensitive-headers: 
